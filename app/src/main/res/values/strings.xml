@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DaVinciApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="inicio">Inicio</string>
+
+    <string name="pintura">Pintura</string>
+    <string name="escultura">Escultura</string>
+    <string name="ciencia">Ciencia</string>
+    <string name="invento">Inventos</string>
+
+    <string name="daVinci">DaVinciApp</string>
+
+    <string name="alta">Alta</string>
+    <string name="baja">Baja</string>
+    <string name="modificacion">Modificación</string>
+</resources>

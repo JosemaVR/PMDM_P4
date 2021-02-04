@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.davinciapp.ui.inicio.InicioFragment"
+        android:label="@string/inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/nav_pintura"
+        android:name="com.example.davinciapp.ui.pintura.PinturaFragment"
+        android:label="@string/pintura"
+        tools:layout="@layout/fragment_pintura" />
+    <fragment
+        android:id="@+id/nav_ciencia"
+        android:name="com.example.davinciapp.ui.ciencia.CienciaFragment"
+        android:label="@string/ciencia"
+        tools:layout="@layout/fragment_ciencia" />
+    <fragment
+        android:id="@+id/nav_escultura"
+        android:name="com.example.davinciapp.ui.escultura.EsculturaFragment"
+        android:label="@string/escultura"
+        tools:layout="@layout/fragment_escultura" />
+    <fragment
+        android:id="@+id/nav_inventor"
+        android:name="com.example.davinciapp.ui.invento.InventoFragment"
+        android:label="@string/invento"
+        tools:layout="@layout/fragment_invento" />
+</navigation>

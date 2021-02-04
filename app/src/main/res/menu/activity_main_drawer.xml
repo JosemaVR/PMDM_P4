@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_davinci"
+            android:title="@string/inicio"/>
+        <item
+            android:id="@+id/nav_pintura"
+            android:icon="@drawable/ic_pintura"
+            android:title="@string/pintura"/>
+        <item
+            android:id="@+id/nav_escultura"
+            android:icon="@drawable/ic_escultura"
+            android:title="@string/escultura" />
+        <item
+            android:id="@+id/nav_ciencia"
+            android:icon="@drawable/ic_ciencia"
+            android:title="@string/ciencia"/>
+        <item
+            android:id="@+id/nav_inventor"
+            android:icon="@drawable/ic_invento"
+            android:title="@string/invento"/>
+    </group>
+</menu>
